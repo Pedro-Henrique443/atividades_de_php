@@ -26,4 +26,23 @@ echo saudacao($nome) . "<br>";
 var_dump($nome, $idade);
 
 
+
+$arr = array(1,2,3,4,5);
+
+$arr2 = [1,2,3,4,5];
+
+echo $arr[0] . " " .  $arr2[1];
+echo "<br>";
+foreach($arr2 as $number){
+    echo "Número: ". $number . "<br>";
+}
+
+
+
+$usuario = [
+    "nome" => "Ivy",
+    "idade" => 17,
+    "email" => "ivy@example.com",
+];
+
 ?>
